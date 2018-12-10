@@ -1,0 +1,102 @@
+body {
+  background-color: #F7F7F7;
+  color: #393D3F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-justify: center;
+}
+a {
+	color: #455561;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+h1,h2,h3 {
+	color: #96616B;
+}
+h1 {
+	font-size: 28px;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	font-weight: 500;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.container{
+    width: 700px;
+    margin: 60px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-light{
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.interest{
+    border-width: 1px;
+    border-color: #96616B;
+    border-style: solid;
+}
+#profile_picture{
+	border-radius: 50%;
+	width: 150px;
+}
+.btn-blue{
+	background-color: #549BAD;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: #393D3F;
+	color: white; 
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+.list-inline i{
+	font-size: 50px;
+	color: #455561
+}
+.list-inline i:hover{
+	color: rgb(230,230,230);
+}
+#introduction p{
+	margin-bottom: 30px;
+}
